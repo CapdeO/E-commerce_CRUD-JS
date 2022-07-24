@@ -1,3 +1,1 @@
-json-server --watch db.json
-
-Browser sync: browser-sync start --server --file . --host --port 5000 --startPath screens/index.html
+https://capdeo.github.io/E-commerce_CRUD-JS/screens/index.html
