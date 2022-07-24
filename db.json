@@ -1,12 +1,10 @@
 {
   "heroes": [
     {
+      "tipo": "",
       "nombre": "Mago",
       "precio": "0.8",
-      "clase": "Raro",
       "imagen": "https://www.ecured.cu/images/thumb/1/1e/Magical-merlin_%28Small%29.jpg/260px-Magical-merlin_%28Small%29.jpg",
-      "tipo": "Mago",
-      "faccion": "Elfo",
       "id": "1"
     },
     {
