@@ -1,0 +1,22 @@
+{
+    "name": "e-commerce",
+    "version": "1.0.0",
+    "description": "e-commerce prueba",
+    "main": "service/index.html",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "asd"
+    },
+    "keywords": [
+        "Alura"
+    ],
+    "author": "Oscar Capdevila",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/CapdeO"
+    },
+    "homepage": "https://github.com/CapdeO"
+    }

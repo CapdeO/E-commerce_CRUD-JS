@@ -1,0 +1,223 @@
+html {
+
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	background-image: url(../img/forest.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-attachment: fixed;
+}
+
+header {
+	background-color: rgba(0, 0, 0, 0.5);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 70px;
+	color: white;
+}
+
+h1 {
+	font-size: 18pt;
+}
+
+.headerizq {
+
+	display: flex;
+
+}
+
+.headertitulo {
+	margin-right: 2em;
+	font-size: 22pt;
+	border-width: 2px;
+	
+	
+	
+}
+
+.buscador {
+	width: 20em;
+	margin-right: 1em;
+}
+.buscadorbtn {
+	
+	font-size: 20px;
+}
+.loginbtn {
+	width: 10em;
+	
+	font-size: 20px;
+}
+
+.banner {
+	background-color: rgba(10, 20, 0, 0.5);
+	height: 320px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+}
+
+.bannerinterno {
+ 	display: flex;
+	align-items: center;
+	justify-content: start;
+	width: 70%;
+}
+
+.bannerimgcontenedor {
+	padding-right: 110px;
+}
+
+.bannerimg {
+	height: 250px;
+	border-style: solid;
+	border-color: grey;
+	border-width: 2px;
+}
+
+.bannertitulo {
+	font-size: 25pt;
+}
+.bannernombre {
+	font-size: 20pt;
+	color: yellow;
+}
+
+.banneroferta {
+	font-size: 14pt;
+	color: red;
+}
+
+.lineaproductos {
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 80%;
+	height: auto;
+	margin: auto;
+	padding: 10px 20px 70px 20px;
+	margin: 44px auto;
+	color: white;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 33px;
+	flex-wrap: wrap;
+}
+
+.productos {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 16px;
+	flex-wrap: wrap;
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+	justify-content: space-evenly;
+	gap: 60px auto;
+}
+
+.producto {
+	
+	height: 170px;
+}
+
+.imagenproducto {
+	width: 176px;
+	height: 174px;
+	border-style: solid;
+	border-color: grey;
+	border-width: 2px;
+	/*
+	background-image: url(../img/heroes/mago2.gif);
+	background-size: cover;*/
+}
+
+.tituloproducto {
+
+}
+
+.precioproducto {
+	color: orangered;
+}
+
+.verproducto {
+	color: grey;
+}
+
+.imagen{
+	width: 176px;
+	height: 174px;
+	
+}
+/*
+.imagen:hover {
+	display: none;
+}*/
+
+footer {
+	
+}
+
+.contacto {
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 100%;
+	color: white;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-evenly;
+	margin: auto;
+	padding: 64px 0;
+}
+
+.logofooter {
+	font-size: 33pt;
+}
+
+.links {
+}
+
+.formulariocontacto {
+}
+
+.nombre {
+	width: 400px;
+}
+
+.mensaje {
+	width: 400px;
+	height: 80px;
+	resize: none;
+}
+
+.rodapie {
+	height: 103px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.agregarProducto {
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 400px;
+	width: 700px;
+	margin: 60px auto;
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	justify-content: center;
+	align-items: center;
+
+}

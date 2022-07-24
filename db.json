@@ -1,0 +1,41 @@
+{
+  "heroes": [
+    {
+      "nombre": "Mago",
+      "precio": "0.8",
+      "clase": "Raro",
+      "imagen": "https://www.ecured.cu/images/thumb/1/1e/Magical-merlin_%28Small%29.jpg/260px-Magical-merlin_%28Small%29.jpg",
+      "tipo": "Mago",
+      "faccion": "Elfo",
+      "id": "1"
+    },
+    {
+      "tipo": "",
+      "nombre": "Esqueleto maldito",
+      "precio": "5",
+      "imagen": "https://cdna.artstation.com/p/assets/images/images/016/418/774/large/arthur-bowling-undex-warrior-sm.jpg?1552080647",
+      "id": "2"
+    },
+    {
+      "tipo": "",
+      "nombre": "Abominación",
+      "precio": "2",
+      "imagen": "https://eminismagazine.files.wordpress.com/2015/06/ogre.png",
+      "id": "5a8d5c3b-8020-424b-9656-b139cc88f5da"
+    },
+    {
+      "tipo": "",
+      "nombre": "Elfo",
+      "precio": "3",
+      "imagen": "https://i.pinimg.com/550x/b2/1e/83/b21e831e9d536a771a1ed33151b83fd0.jpg",
+      "id": "8eebdf78-0c0f-404e-841f-82a55c1540d2"
+    },
+    {
+      "tipo": "",
+      "nombre": "Minotauro",
+      "precio": "1",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQSQPCwNYsilU0p22yWE-soI-PvGrXMgTC_wVEH9IxS2KGVe7R8E9KwKgHHWjv0xmMikU&usqp=CAU",
+      "id": "574eec5c-dd4e-4a34-9375-39223fe4f7d0"
+    }
+  ]
+}

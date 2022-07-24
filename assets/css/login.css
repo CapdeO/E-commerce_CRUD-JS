@@ -1,0 +1,87 @@
+html {
+
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	justify-content: center;
+	background-image: url(../img/forest.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-attachment: fixed;
+}
+
+header {
+	background-color: rgba(0, 0, 0, 0.5);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 70px;
+	color: white;
+}
+
+h1 {
+	font-size: 18pt;
+}
+
+.headerizq {
+
+	display: flex;
+
+}
+
+.headertitulo {
+	margin-right: 2em;
+	font-size: 22pt;
+	border-width: 2px;
+	
+	
+	
+}
+
+.buscador {
+	width: 20em;
+	margin-right: 1em;
+}
+.buscadorbtn {
+	
+	font-size: 20px;
+}
+.loginbtn {
+	width: 10em;
+	
+	font-size: 20px;
+}
+
+.login {
+	margin: 100px auto;
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 400px;
+	color: white;
+	display: flex;
+	justify-content: center;
+	padding: 50px;
+}
+
+.formulario {
+	text-align: center;
+}
+
+.correo {
+	width: 300px;
+	height: 35px;
+}
+
+.password {
+	width: 300px;
+	height: 35px;
+}
+
+.ingresar  {
+	width: 300px;
+	height: 35px;
+	background-color: royalblue;
+	color: white;
+	font-weight: bold;
+}
