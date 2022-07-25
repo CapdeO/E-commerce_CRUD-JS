@@ -1,8 +1,8 @@
 //conexion con el servidor tomando la lista de héroes, y pasando a formato json
-const listaHeroes = () => fetch("http://localhost:3000/heroes").then((respuesta) => respuesta.json());
+const listaHeroes = () => fetch("https://my-json-server-crud.herokuapp.com/heroes").then((respuesta) => respuesta.json());
 
 const crearProducto = (tipo,nombre,precio,imagen) => {
-    return fetch("http://localhost:3000/heroes", {
+    return fetch("https://my-json-server-crud.herokuapp.com/heroes", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
@@ -12,7 +12,7 @@ const crearProducto = (tipo,nombre,precio,imagen) => {
 };
 
 const editarProducto = (tipo,nombre,precio,imagen,id) => {
-    return fetch(`http://localhost:3000/heroes/${id}`, {
+    return fetch(`https://my-json-server-crud.herokuapp.com/heroes/${id}`, {
         method: "PUT",
         headers: {
             "Content-Type": "application/json"
@@ -22,11 +22,11 @@ const editarProducto = (tipo,nombre,precio,imagen,id) => {
 };
 
 const detalleProducto = (id) => {
-    return fetch(`http://localhost:3000/heroes/${id}`).then((respuesta) => respuesta.json());
+    return fetch(`https://my-json-server-crud.herokuapp.com/heroes/${id}`).then((respuesta) => respuesta.json());
 };
 
 const eliminarProducto = (id) => {
-    return fetch(`http://localhost:3000/heroes/${id}`, {
+    return fetch(`https://my-json-server-crud.herokuapp.com/heroes/${id}`, {
         method: "DELETE",
     });
 };
