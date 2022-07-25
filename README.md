@@ -8,7 +8,7 @@ Esta es la realización del Challenge Front-End del programa ONE, en donde las c
 - Menú de administrador para que puedan agregar, editar, buscar o eliminar productos de la tienda.
 
 Mi resolución consiste en el marketplace del juego ficticio llamado "Pandemonium". En este marketplace se comercializa con la moneda BNB, y los productos del juego son héroes, equipamientos y pergaminos.
-Para poder alojar mi base de datos "en línea" tuve que recurrir Heroku.
+Para poder alojar mi base de datos "en línea" tuve que recurrir a Heroku.
 
 **** PRUEBA EL CRUD! INGRESA A LA PÁGINA, EN LA PARTE DE LOGIN SÓLO PRESIONA INGRESAR SIN PONER NINGÚN VALOR, LUEGO AGREGA UN HÉROE O PRESIONA EDITAR EL QUE QUIERAS. NO OLVIDES QUE LAS IMÁGENES SÓLO SE CARGAN DESDE URL ****
 
