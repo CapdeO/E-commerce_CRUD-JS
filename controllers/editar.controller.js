@@ -7,7 +7,7 @@ const obtenerInformacion = async () => {
     const id = url.searchParams.get("id");
 
     if(id == null) {
-        window.location.href = "/screens/error.html";
+        window.location.href = "/E-commerce_CRUD-JS/screens/error.html";
     }
 
     const tipo = document.querySelector("#tipo");
@@ -42,6 +42,6 @@ formulario.addEventListener("submit", (evento) => {
     const precio = document.querySelector("#precio").value;
     const imagen = document.querySelector("#imagen").value;
     productServices.editarProducto(tipo, nombre, precio, imagen, id).then(() => {
-        window.location.href = "/screens/admin.html";
+        window.location.href = "/E-commerce_CRUD-JS/screens/admin.html";
     });
 });
