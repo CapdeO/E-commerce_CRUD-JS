@@ -6,16 +6,16 @@ import { productServices } from "../service/product-service.js";
 const crearNuevoProducto = (nombre,precio,clase,imagen,id) => {
     const card = document.createElement("div");
     const contenido = `<div class="producto">
-                            <div class="imagenproducto">
+                            <div class="imagenProducto">
                                 <img class="imagen" src="${imagen}">
                             </div>
-                            <div class="tituloproducto">
+                            <div class="tituloProducto">
                                 ${nombre}
                             </div>
-                            <div class="precioproducto">
+                            <div class="precioProducto">
                                 ${precio} BNB
                             </div>
-                            <div class="verproducto">
+                            <div class="verProducto">
                                 <a href="../screens/producto.html?id=${id}">
                                     Ver producto
                                 </a>
