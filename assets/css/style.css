@@ -1,7 +1,3 @@
-html {
-
-}
-
 body {
 	font-family: 'Raleway', sans-serif;
 	background-image: url(../img/forest.jpg);
@@ -10,90 +6,88 @@ body {
 	background-position: top;
 	background-attachment: fixed;
 }
-
 header {
 	background-color: rgba(0, 0, 0, 0.5);
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	height: 70px;
+	padding: 30px;
 	color: white;
+	gap: 1rem;
 }
-
 h1 {
 	font-size: 18pt;
 }
-
-.headerizq {
-
+.headerIzq {
 	display: flex;
-
+	align-items: center;
+	justify-content: space-between;
+	gap: 1rem;
 }
-
-.headertitulo {
-	margin-right: 2em;
+.headerTitulo {
 	font-size: 22pt;
-	border-width: 2px;
-	
-	
-	
 }
-
 .buscador {
-	width: 20em;
-	margin-right: 1em;
+	height: 2.2rem; 
+	border-radius: 3pt;
+	padding: 0 6px;
 }
-.buscadorbtn {
-	
+.loginBtn, .buscadorBtn, .agregarBtn {
+	width: 6rem;
+	height: 2.2rem;
+	background-color: rgba(10, 20, 0, 0.5);
+	color: white;
+	border-width: 3px;
+	border-color: white;
+	border-style: solid;
+	font-family: 'Raleway', sans-serif;
 	font-size: 20px;
+	font-weight: 900;
+	border-radius: 4pt;
 }
-.loginbtn {
-	width: 10em;
-	
-	font-size: 20px;
-}
-
 .banner {
 	background-color: rgba(10, 20, 0, 0.5);
-	height: 320px;
+	padding: 1rem;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	color: white;
 }
-
-.bannerinterno {
+.bannerInterno {
  	display: flex;
 	align-items: center;
 	justify-content: start;
-	width: 70%;
+	width: 80%;
+	gap: 2rem;
 }
-
-.bannerimgcontenedor {
-	padding-right: 110px;
+.bannerImgContenedor {
+	display: flex;
+	justify-content: center;
 }
-
-.bannerimg {
-	height: 250px;
+.bannerImg {
+	width: 250px;
 	border-style: solid;
 	border-color: grey;
 	border-width: 2px;
 }
-
-.bannertitulo {
-	font-size: 25pt;
+.bannerInfo {
+	line-height: 18pt;
 }
-.bannernombre {
+.bannerNombre {
 	font-size: 20pt;
 	color: yellow;
 }
-
-.banneroferta {
+.bannerOferta {
 	font-size: 14pt;
 	color: red;
 }
-
-.lineaproductos {
+.bannerBtn {
+	font-size: 10pt;
+	width: 7rem;
+	height: 1.8rem;
+	margin-top: 4px;
+}
+.lineaProductos {
 	background-color: rgba(0, 0, 0, 0.5);
 	width: 80%;
 	height: auto;
@@ -103,17 +97,13 @@ h1 {
 	color: white;
 	display: flex;
 	flex-direction: column;
-
 }
-
 .top {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	height: 33px;
-	flex-wrap: wrap;
 }
-
 .productos {
 	display: flex;
 	flex-direction: row;
@@ -127,49 +117,26 @@ h1 {
 	justify-content: space-evenly;
 	gap: 60px auto;
 }
-
 .producto {
-	
 	height: 170px;
 }
-
-.imagenproducto {
+.imagenProducto {
 	width: 176px;
 	height: 174px;
 	border-style: solid;
 	border-color: grey;
 	border-width: 2px;
-	/*
-	background-image: url(../img/heroes/mago2.gif);
-	background-size: cover;*/
 }
-
-.tituloproducto {
-
-}
-
-.precioproducto {
+.precioProducto {
 	color: orangered;
 }
-
-.verproducto {
+.verProducto {
 	color: grey;
 }
-
 .imagen{
 	width: 176px;
 	height: 174px;
-	
 }
-/*
-.imagen:hover {
-	display: none;
-}*/
-
-footer {
-	
-}
-
 .contacto {
 	background-color: rgba(0, 0, 0, 0.5);
 	width: 100%;
@@ -180,27 +147,17 @@ footer {
 	margin: auto;
 	padding: 64px 0;
 }
-
 .logofooter {
 	font-size: 33pt;
 }
-
-.links {
-}
-
-.formulariocontacto {
-}
-
 .nombre {
 	width: 400px;
 }
-
 .mensaje {
 	width: 400px;
 	height: 80px;
 	resize: none;
 }
-
 .rodapie {
 	height: 103px;
 
@@ -209,15 +166,40 @@ footer {
 	align-items: center;
 	text-align: center;
 }
-.agregarProducto {
-	background-color: rgba(0, 0, 0, 0.5);
-	height: 400px;
-	width: 700px;
-	margin: 60px auto;
-	display: flex;
-	flex-direction: column;
-	gap: 16px;
-	justify-content: center;
-	align-items: center;
 
+@media (max-width: 640px) {
+	.buscador {
+		display: none;
+	}
+	.bannerInterno {
+		width: 100%;
+		gap: 0.6rem;
+	}
+	.bannerImg {
+		width: 45vw;
+	}
+}
+
+@media (max-width: 425px) {
+	header, .headerIzq {
+		gap: 0.5rem;
+	}
+	h1 {
+		font-size: 15pt;
+	}
+	h1, h2 {
+		text-align: center;
+	}
+	.headerTitulo {
+		font-size: 15pt;
+	}
+	.bannerInfo {
+		line-height: 14pt;
+	}
+	.bannerNombre {
+		font-size: 17pt;
+	}
+	.bannerOferta {
+		font-size: 11pt;
+	}	
 }
