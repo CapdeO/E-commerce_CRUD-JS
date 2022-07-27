@@ -69,7 +69,7 @@ h1 {
 	width: 250px;
 	border-style: solid;
 	border-color: grey;
-	border-width: 2px;
+	border-width: 3px;
 }
 .bannerInfo {
 	line-height: 18pt;
@@ -90,14 +90,11 @@ h1 {
 }
 .lineaProductos {
 	background-color: rgba(0, 0, 0, 0.5);
-	width: 80%;
-	height: auto;
-	margin: auto;
-	padding: 10px 20px 70px 20px;
+	width: 85%;
+	padding: 10px;
 	margin: 44px auto;
 	color: white;
-	display: flex;
-	flex-direction: column;
+	
 }
 .top {
 	display: flex;
@@ -107,26 +104,25 @@ h1 {
 }
 .productos {
 	display: flex;
-	flex-direction: row;
 	align-items: flex-start;
-	padding: 0px;
-	gap: 16px;
+	padding: 20px 0;
+	gap: 10px;
 	flex-wrap: wrap;
-	flex: none;
 	order: 1;
 	flex-grow: 0;
-	justify-content: space-evenly;
-	gap: 60px auto;
+	justify-content: center;
+	
 }
 .producto {
-	height: 170px;
+	height: 250px;
+	line-height: 13pt;
 }
 .imagenProducto {
 	width: 176px;
 	height: 174px;
 	border-style: solid;
 	border-color: grey;
-	border-width: 2px;
+	border-width: 3px;
 }
 .precioProducto {
 	color: orangered;
