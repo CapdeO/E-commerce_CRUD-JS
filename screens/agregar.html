@@ -5,57 +5,55 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="../assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="../assets/css/agregar.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
 	<title>Admin - Pandemonium marketplace</title>
 </head>
 <body>
 	<header>
-		<div class="headerizq">
-			<p class="headertitulo">Pandemonium marketplace</p>
+		<div class="headerIzq">
+			<p class="headerTitulo">Pandemonium marketplace</p>
 			<input class="buscador" type="text" name="buscador" placeholder="¿Qué deseas buscar?">
-			<button class="buscadorbtn">
+			<button class="buscadorBtn">
 				Buscar
 			</button>
 		</div>
 		<div>
-			<a href="index.html"><button class="loginbtn">
-				Admin
+			<a href="admin.html"><button class="loginBtn">
+				Volver
 			</button></a></abbr>
 		</div>
 	</header>
-	<section class="lineaproductos">
-		<div class="top">
-			<h1>Agregar producto</h1>
-			<a href="./admin.html"><h2>Cancelar</h2></a>
-		</div>
-	</section>
-
-
-
+	
 	<section>
 		<form class="agregarProducto">
-			<label for="tipo">Tipo</label>
-			<select name="tipo" id="tipo" required>
-				<option value=""></option>
-				<option value="">Héroe</option>
-				<option value="">Equipamiento</option>
-				<option value="">Pergamino</option>
-			</select>
-			<div class="nombreproducto">
-				<label for="nombre">Nombre</label>
-				<input type="text" name="nombre"" id="nombre" placeholder="*" required>
+			<h1>Agregar Producto</h1>
+			<div class="agregarCampos">
+				<div>
+					<label for="tipo">Tipo</label>
+					<select class="agregarInput" name="tipo" id="tipo" required>
+						<option value=""></option>
+						<option value="">Héroe</option>
+						<option value="">Equipamiento</option>
+						<option value="">Pergamino</option>
+					</select>
+				</div>
+				<div>
+					<label for="nombre">Nombre</label>
+					<input class="agregarInput" type="text" name="nombre"" id="nombre" placeholder="*" required>
+				</div>
+				<div>
+					<label for="precio">Precio (BNB)</label>
+					<input class="agregarInput" type="number" step="any" name="precio" id="precio" placeholder="*" required>
+				</div>
+				<div>
+					<label for="urlImagen">URL imagen</label>
+					<input class="agregarInput" type="url" name="imagen" id="imagen" placeholder="*" required>
+				</div>
+				
 			</div>
-			<div class="precioproducto">
-				<label for="precio">Precio</label>
-				<input type="number" step="any" name="precio" id="precio" placeholder="*" required>
-				<span>BNB</span>
-			</div>
-			<div class="precioproducto">
-				<label for="urlImagen">URL imagen</label>
-				<input type="url" name="imagen" id="imagen" placeholder="*" required>
-			</div>
-			<button type="submit">Agregar</button>
+			<button class="agregarBtn" type="submit">Agregar</button>
 
 		</form>
 	</section>
