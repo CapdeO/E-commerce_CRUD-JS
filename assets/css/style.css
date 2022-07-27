@@ -119,7 +119,7 @@ h1 {
 }
 .imagenProducto {
 	width: 176px;
-	height: 174px;
+	height: 176px;
 	border-style: solid;
 	border-color: grey;
 	border-width: 3px;
@@ -131,8 +131,9 @@ h1 {
 	color: grey;
 }
 .imagen{
-	width: 176px;
-	height: 174px;
+	height: 100%;
+	width: 100%;
+	
 }
 
 .contacto {
@@ -236,5 +237,12 @@ ul {
 	}
 	.bannerOferta {
 		font-size: 11pt;
+	}
+	.producto {
+		height: 350px;
 	}	
+	.imagenProducto {
+		width: 270px;
+		height: 270px;
+	}
 }
