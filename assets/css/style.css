@@ -147,24 +147,27 @@ h1 {
 .logoFooter {
 	font-size: 25pt;
 }
-.footerDer {
+.footerIzq {
 	display: flex;
-	gap: 2rem;
 }
 ul {
-	line-height: 25pt;
+	line-height: 30pt;
+	margin-left: 20px;
 }
 .formularioContacto {
 	display: flex;
 	flex-direction: column;
-	gap: 4vh;
 	width: 40%;
+}
+.tituloContacto{
+	text-align: start;
 }
 .nombreContacto, .mensajeContacto {
 	width: 90%;
 	height: 2.2rem; 
 	border-radius: 3pt;
 	padding: 0 14px;
+	margin-top: 17px;
 	resize: none;
 	font-family: 'Raleway', sans-serif;
 }
@@ -174,6 +177,7 @@ ul {
 }
 .contactoBtn {
 	width: 11.5rem;
+	margin-top: 17px;
 }
 .rodapie {
 	height: 103px;
@@ -184,7 +188,7 @@ ul {
 	color: white;
 }
 @media (max-width: 900px) {
-	.footerDer {
+	.footerIzq {
 		flex-direction: column;
 	}
 	.formularioContacto {
@@ -213,6 +217,7 @@ ul {
 	}
 	.formularioContacto {
 		width: 90%;
+		margin-top: 25px;
 	}
 	ul {
 		text-align: center;
