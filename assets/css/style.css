@@ -104,7 +104,6 @@ h1 {
 	display: flex;
 	align-items: flex-start;
 	padding: 20px 0;
-	gap: 10px;
 	flex-wrap: wrap;
 	order: 1;
 	flex-grow: 0;
@@ -114,6 +113,7 @@ h1 {
 .producto {
 	height: 250px;
 	line-height: 17pt;
+	margin: 0 4px;
 }
 .imagenProducto {
 	width: 176px;
