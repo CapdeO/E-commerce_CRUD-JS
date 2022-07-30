@@ -152,7 +152,7 @@ h1 {
 }
 ul {
 	line-height: 30pt;
-	margin-left: 20px;
+	margin-left: 60px;
 }
 .formularioContacto {
 	display: flex;
@@ -194,6 +194,10 @@ ul {
 	.formularioContacto {
 		width: 55%;
 	}
+	ul {
+		text-align: center;
+		margin-left: 0;
+	}
 }
 @media (max-width: 800px) {
 	.buscador {
@@ -219,9 +223,7 @@ ul {
 		width: 90%;
 		margin-top: 25px;
 	}
-	ul {
-		text-align: center;
-	}
+	
 }
 
 @media (max-width: 425px) {
@@ -258,7 +260,7 @@ ul {
 		width: 270px;
 		height: 270px;
 	}
-        .tituloContacto {
-                text-align: start;
-        }
+    .tituloContacto {
+        text-align: start;
+    }
 }
