@@ -258,4 +258,7 @@ ul {
 		width: 270px;
 		height: 270px;
 	}
+        .tituloContacto {
+                text-align: start;
+        }
 }
