@@ -4,8 +4,17 @@ import { productServices } from "../service/product-service.js";
 const crearProductoAdmin = (nombre,precio,clase,imagen,id) => {
     const card = document.createElement("div");
     const contenido = `<div class="producto">
-                            <div class="imagenProducto">
+                            <div class="imagenProducto">    
                                 <img class="imagen" src="${imagen}">
+                                <div class="botonera">
+                                    <a href="../screens/editar.html?id=${id}">
+                                        <img class="editBtn" src="../assets/img/edit.png">
+                                    </a>
+                                
+                                    <img class="deleteBtn" src="../assets/img/delete.png" id="${id}">
+                                    
+                                </div>
+                                
                             </div>
                             <div class="tituloProducto">
                                 ${nombre}
@@ -13,17 +22,7 @@ const crearProductoAdmin = (nombre,precio,clase,imagen,id) => {
                             <div class="precioProducto">
                                 ${precio} BNB
                             </div>
-                            <div class="btnEditar">
-                                <a href="../screens/editar.html?id=${id}">
-                                    <button class="" type="button" id="${id}">
-                                    Editar
-                                </a>
-                            </div>
-                            <div class="btnEliminar">
-                                <button class="btn" type="button" id="${id}">
-                                Eliminar
-                            </button>
-                            </div>
+                    
                             <div class="verProducto">
                                 <a href="../screens/editar_cliente.html?id=${id}">
                                     Ver producto
@@ -31,7 +30,7 @@ const crearProductoAdmin = (nombre,precio,clase,imagen,id) => {
                             </div>
                         </div>`;
                         card.innerHTML = contenido;
-                        const btn = card.querySelector(".btn");
+                        const btn = card.querySelector(".deleteBtn");
                         btn.addEventListener("click", () => {
                             const id = btn.id;
                             productServices.eliminarProducto(id).then( () => {
