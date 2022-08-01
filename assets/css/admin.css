@@ -1,0 +1,15 @@
+.botonera {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    bottom: 28%;
+}
+
+.editBtn, .deleteBtn {
+    width: 40px;
+    transition: 0.5s;
+}
+.editBtn:hover, .deleteBtn:hover {
+    width: 50px;
+}
