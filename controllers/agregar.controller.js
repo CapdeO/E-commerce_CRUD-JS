@@ -8,6 +8,6 @@ formulario.addEventListener("submit", (evento) => {
     const precio = document.querySelector("#precio").value;
     const imagen = document.querySelector("#imagen").value;
     productServices.crearProducto(tipo,nombre,precio,imagen,).then( () => {
-        window.location.href = "/screens/admin.html"
+        window.location.href = "/E-commerce_CRUD-JS/screens/admin.html"
     }).catch( err => console.log(err));
 });
