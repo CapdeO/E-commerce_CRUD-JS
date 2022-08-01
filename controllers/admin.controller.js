@@ -24,7 +24,7 @@ const crearProductoAdmin = (nombre,precio,clase,imagen,id) => {
                             </div>
                     
                             <div class="verProducto">
-                                <a href="../screens/editar_cliente.html?id=${id}">
+                                <a href="../screens/ver.html?id=${id}">
                                     Ver producto
                                 </a>
                             </div>
